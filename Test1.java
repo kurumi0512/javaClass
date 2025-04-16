@@ -1,10 +1,12 @@
-public class Test1 {
-  public static void main(String[] args) {
-    System.out.println("What's wrong with this program?");
-  }
+public class StringSplit{
+	public static void main(String[] args){
+		String shirts="Blue Shirt,Red Shirt,Pink Shirt";
+		
+		String[]  results = shirt.split(",");
+		for(int i=0;i<4;i++){
+			System.out.println(String[i]);
+		}
+	}
 }
-class TestAnother1 {
-  public static void main(String[] args) {
-    System.out.println("What's wrong with this program?");
-  }
-}
+
+
